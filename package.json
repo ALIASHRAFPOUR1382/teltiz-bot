@@ -1,0 +1,30 @@
+{
+  "name": "robbot-node",
+  "version": "1.0.0",
+  "description": "Telegram bot for channel management - Node.js/JavaScript version",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node src/database/migrations.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grammy": "^1.23.0",
+    "@grammyjs/storage-free": "^2.1.0",
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.4.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
