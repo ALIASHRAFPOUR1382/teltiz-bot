@@ -37,3 +37,4 @@ export function getQuizAnswerKeyboard(questionId: number): InlineKeyboard {
     .text('گزینه د', `quiz_answer_${questionId}_d`);
 }
 
+
